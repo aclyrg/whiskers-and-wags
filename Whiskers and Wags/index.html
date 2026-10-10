@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiskers &amp; Wags | Pet Essentials</title>
+    <meta name="description" content="Quality treats, toys, beds and everyday essentials for dogs and cats of every age.">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header>
+        <div class="nav">
+
+            <a href="index.html" class="logo" aria-label="Whiskers and Wags home">
+                <img src="favicon.png" alt="">
+                Whiskers &amp; Wags
+            </a>
+
+            <nav aria-label="Primary">
+                <ul id="primaryNav">
+                    <li><a href="dogs.html">Shop Dogs</a></li>
+                    <li><a href="cats.html">Shop Cats</a></li>
+                    <li><a href="best-sellers.html">Best Sellers</a></li>
+                    <li><a href="why-us.html">Why Us</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button type="button" class="cart-btn" id="cartBtn" aria-haspopup="dialog" aria-label="Cart, 0 items">Cart (0)</button>
+                <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation menu">&#9776;</button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main id="main">
+
+        <section class="hero" id="top" aria-labelledby="hero-heading">
+            <div class="wrap">
+
+                <div class="hero-banner">
+                    <img src="banner-pet.png" alt="Whiskers and Wags Pet Essentials banner: a grey cat and a poodle in a blue sweater beside a food bowl, dog treats, and a blue paw print">
+                </div>
+
+                <div class="hero-copy">
+                    <span class="eyebrow">Pet essentials, done right</span>
+                    <h1 id="hero-heading">Everything they wag &amp; purr for.</h1>
+                    <p class="lede">Quality treats, toys, and everyday essentials for dogs and cats, sized and suited to every age, from energetic puppies and kittens to elderly pets who need extra care.</p>
+                    <div class="btn-row">
+                        <a class="btn btn-primary" href="dogs.html">Shop dog essentials</a>
+                        <a class="btn btn-ghost" href="cats.html">Shop cat essentials</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="block" aria-labelledby="cat-heading">
+            <div class="wrap">
+
+                <div class="section-head">
+                    <h2 id="cat-heading">Two species, one standard of care.</h2>
+                    <p>Every product is chosen for size, age, and specific needs, from playful energy to gentler, senior-friendly comfort.</p>
+                </div>
+
+                <div class="cat-grid">
+
+                    <article class="cat-card dogs">
+                        <svg class="cat-icon" viewBox="0 0 64 64" aria-hidden="true"><path fill="#F5F5DC" d="M20 26c4 0 7 4 7 8s-3 8-7 8-7-4-7-8 3-8 7-8Zm24 0c4 0 7 4 7 8s-3 8-7 8-7-4-7-8 3-8 7-8ZM26 12c3 0 5 3 5 6s-2 6-5 6-5-3-5-6 2-6 5-6Zm12 0c3 0 5 3 5 6s-2 6-5 6-5-3-5-6 2-6 5-6ZM32 30c8 0 14 6 14 13 0 6-5 9-14 9s-14-3-14-9c0-7 6-13 14-13Z"/></svg>
+                        <h3>For dogs</h3>
+                        <p>Treats, chew toys, collars &amp; leashes, beds, and dental care for puppies through seniors.</p>
+                        <a href="dogs.html">Browse dog essentials</a>
+                    </article>
+
+                    <article class="cat-card cats">
+                        <svg class="cat-icon" viewBox="0 0 64 64" aria-hidden="true"><path fill="#F5F5DC" d="M14 8 22 24l10-6 10 6 8-16 2 40c0 8-11 14-20 14S12 56 12 48Z"/></svg>
+                        <h3>For cats</h3>
+                        <p>Toys, scratchers, collars, cozy beds, and dental care sized for kittens to elderly cats.</p>
+                        <a href="cats.html">Browse cat essentials</a>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="block band" aria-labelledby="featured-heading">
+            <div class="wrap">
+
+                <div class="head-row">
+                    <div class="section-head">
+                        <h2 id="featured-heading">Best sellers</h2>
+                        <p>A small sample of what every Whiskers &amp; Wags order draws from.</p>
+                    </div>
+                    <a class="more-link" href="best-sellers.html">See all best sellers</a>
+                </div>
+
+                <div class="prod-grid" id="prodGrid">
+                    <article class="prod-card" data-id="treats" data-pet="dog" data-tag="treats" data-price="249" data-order="0">
+                        <div class="prod-thumb">
+                            <svg aria-hidden="true"
+                                viewBox="0 0 100 100"
+                               
+                               
+                            >
+<defs>
+<linearGradient id="p1b" x1="0" x2="1"><stop offset="0" stop-color="#E8A06E"/><stop offset=".6" stop-color="#D9824E"/><stop offset="1" stop-color="#B8622F"/></linearGradient>
+<linearGradient id="p1t" x1="0" x2="1"><stop offset="0" stop-color="#D9A266"/><stop offset="1" stop-color="#A9703A"/></linearGradient>
+</defs>
+<ellipse cx="50" cy="90" rx="32" ry="4" fill="#1B3C45" opacity=".16"/>
+<rect x="22" y="26" width="56" height="62" rx="7" fill="url(#p1b)"/>
+<rect x="20" y="17" width="60" height="14" rx="3" fill="url(#p1t)"/>
+<g stroke="#F5F5DC" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round">
+<path d="M28 20v8M35 20v8M42 20v8M49 20v8M56 20v8M63 20v8M70 20v8"/>
+</g>
+<rect x="31" y="42" width="38" height="38" rx="7" fill="#F5F5DC"/>
+<rect x="31" y="42" width="38" height="38" rx="7" fill="none" stroke="#25505B" stroke-opacity=".18"/>
+<g fill="#D9824E">
+<rect x="40" y="54" width="20" height="7" rx="3.5"/>
+<circle cx="40" cy="54.5" r="4"/><circle cx="40" cy="60.5" r="4"/>
+<circle cx="60" cy="54.5" r="4"/><circle cx="60" cy="60.5" r="4"/>
+</g>
+<rect x="38" y="68" width="24" height="3" rx="1.5" fill="#25505B" opacity=".65"/>
+<rect x="43" y="73" width="14" height="2.5" rx="1.25" fill="#25505B" opacity=".35"/>
+<rect x="25" y="29" width="4" height="55" rx="2" fill="#fff" opacity=".22"/>
+
+                            </svg>
+                            <span class="badge">Best seller</span>
+                        </div>
+                        <span class="tag">Treats</span>
+                        <h3><button type="button" class="prod-open" data-id="treats" aria-haspopup="dialog">Oven-Baked Training Treats</button></h3>
+                        <p class="desc">Soft, small rounds that are quick to eat, made for rewarding good behaviour mid-training.</p>
+                        <p class="price">₱249 <span>/ 250g bag</span></p>
+                        <button type="button" class="add" data-id="treats" aria-label="Add Oven-Baked Training Treats to cart">Add to cart</button>
+                    </article>
+                    <article class="prod-card" data-id="rope" data-pet="dog" data-tag="toys" data-price="199" data-order="1">
+                        <div class="prod-thumb">
+                            <svg aria-hidden="true"
+                                viewBox="0 0 100 100"
+                               
+                               
+                            >
+<defs>
+<radialGradient id="p2k" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#F1A877"/><stop offset="1" stop-color="#C4682F"/></radialGradient>
+</defs>
+<ellipse cx="50" cy="90" rx="34" ry="4" fill="#1B3C45" opacity=".14"/>
+<g stroke-linecap="round" fill="none">
+<path id="p2r" d="M24 74C36 70 40 54 50 50S68 36 76 27" stroke="#3E7F8F" stroke-width="15"/>
+<path d="M24 74C36 70 40 54 50 50S68 36 76 27" stroke="#8CC3CF" stroke-width="15" stroke-dasharray="3.5 5.5" stroke-linecap="butt"/>
+<path d="M24 74C36 70 40 54 50 50S68 36 76 27" stroke="#25505B" stroke-width="15" stroke-dasharray="1.2 7.8" stroke-dashoffset="2" stroke-linecap="butt" opacity=".55"/>
+<path d="M22 69C34 65 38 49 48 45S66 31 74 22" stroke="#fff" stroke-width="2.4" opacity=".28"/>
+</g>
+<g stroke="#C98A4B" stroke-width="2" stroke-linecap="round">
+<path d="M14 82l-5 7M18 85l-3 8M10 78l-6 5"/>
+<path d="M84 20l5-7M80 17l3-8M88 24l6-5"/>
+</g>
+<circle cx="19" cy="79" r="10" fill="url(#p2k)"/>
+<circle cx="81" cy="22" r="10" fill="url(#p2k)"/>
+<g fill="none" stroke="#8C4A1E" stroke-opacity=".5" stroke-width="1.4" stroke-linecap="round">
+<path d="M13 76c4 1 8 4 10 8M14 81c3 0 6 2 8 4"/>
+<path d="M75 19c4 1 8 4 10 8M76 24c3 0 6 2 8 4"/>
+</g>
+
+                            </svg>
+                            <span class="badge">Best seller</span>
+                        </div>
+                        <span class="tag">Toys</span>
+                        <h3><button type="button" class="prod-open" data-id="rope" aria-haspopup="dialog">Braided Rope Tugger</button></h3>
+                        <p class="desc">A thick braided rope with knotted ends for tug games and chewing.</p>
+                        <p class="price">₱199 <span>/ each</span></p>
+                        <button type="button" class="add" data-id="rope" aria-label="Add Braided Rope Tugger to cart">Add to cart</button>
+                    </article>
+                    <article class="prod-card" data-id="wand" data-pet="cat" data-tag="toys" data-price="159" data-order="2">
+                        <div class="prod-thumb">
+                            <svg aria-hidden="true"
+                                viewBox="0 0 100 100"
+                               
+                               
+                            >
+<defs>
+<linearGradient id="p6s" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#A9703A"/><stop offset="1" stop-color="#D9A266"/></linearGradient>
+<linearGradient id="p6a" x1="0" x2="1"><stop offset="0" stop-color="#8BBCC8"/><stop offset="1" stop-color="#4E8796"/></linearGradient>
+<linearGradient id="p6b" x1="0" x2="1"><stop offset="0" stop-color="#F8DDBE"/><stop offset="1" stop-color="#E0A06A"/></linearGradient>
+<linearGradient id="p6c" x1="0" x2="1"><stop offset="0" stop-color="#E8996A"/><stop offset="1" stop-color="#BA6633"/></linearGradient>
+<radialGradient id="p6g" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#F0CB7E"/><stop offset="1" stop-color="#B9873A"/></radialGradient>
+</defs>
+<ellipse cx="42" cy="92" rx="26" ry="3.5" fill="#1B3C45" opacity=".13"/>
+<path d="M18 86L58 42" stroke="url(#p6s)" stroke-width="5" stroke-linecap="round"/>
+<path d="M18 86L31 72" stroke="#25505B" stroke-width="7" stroke-linecap="round"/>
+<path d="M22 82l6-6.5" stroke="#6FA8B5" stroke-width="1.4" stroke-linecap="round" opacity=".7"/>
+<path d="M58 42C62 36 66 40 70 36" fill="none" stroke="#6b6154" stroke-width="1.2" stroke-linecap="round"/>
+<g stroke-linejoin="round">
+<g transform="translate(70 37) rotate(-8)"><path d="M0 0C-7-7-6-19 0-30 6-19 7-7 0 0Z" fill="url(#p6a)"/><path d="M0 0V-28" stroke="#1B3C45" stroke-opacity=".4" stroke-width="1"/></g>
+<g transform="translate(70 37) rotate(62)"><path d="M0 0C-7-7-6-19 0-30 6-19 7-7 0 0Z" fill="url(#p6c)"/><path d="M0 0V-28" stroke="#5A2C10" stroke-opacity=".4" stroke-width="1"/></g>
+<g transform="translate(70 37) rotate(30)"><path d="M0 0C-8-8-7-22 0-34 7-22 8-8 0 0Z" fill="url(#p6b)"/><path d="M0 0V-32" stroke="#8C5A32" stroke-opacity=".45" stroke-width="1"/><path d="M0-8l-4-4M0-14l-4.5-4M0-20l-3.5-4M0-8l4-4M0-14l4.5-4M0-20l3.5-4" stroke="#8C5A32" stroke-opacity=".25" stroke-width=".8" stroke-linecap="round"/></g>
+</g>
+<circle cx="70" cy="37" r="3.6" fill="url(#p6g)"/>
+
+                            </svg>
+                            <span class="badge">Best seller</span>
+                        </div>
+                        <span class="tag">Toys</span>
+                        <h3><button type="button" class="prod-open" data-id="wand" aria-haspopup="dialog">Feather Wand for Cats</button></h3>
+                        <p class="desc">Fluttering feathers on a flexible wand to spark chasing and pouncing.</p>
+                        <p class="price">₱159 <span>/ each</span></p>
+                        <button type="button" class="add" data-id="wand" aria-label="Add Feather Wand for Cats to cart">Add to cart</button>
+                    </article>
+                    <article class="prod-card" data-id="scratcher" data-pet="cat" data-tag="cat-furniture" data-price="899" data-order="3">
+                        <div class="prod-thumb">
+                            <svg aria-hidden="true"
+                                viewBox="0 0 100 100"
+                               
+                               
+                            >
+<defs>
+<linearGradient id="p8s" x1="0" x2="1"><stop offset="0" stop-color="#DDA868"/><stop offset=".55" stop-color="#C98A4B"/><stop offset="1" stop-color="#9B6730"/></linearGradient>
+<linearGradient id="p8p" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3C9CE"/><stop offset="1" stop-color="#7E979E"/></linearGradient>
+<radialGradient id="p8k" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#F8DDBE"/><stop offset="1" stop-color="#D9824E"/></radialGradient>
+</defs>
+<ellipse cx="50" cy="92" rx="36" ry="4" fill="#1B3C45" opacity=".16"/>
+<rect x="16" y="76" width="68" height="14" rx="6" fill="url(#p8p)"/>
+<rect x="20" y="78" width="60" height="3" rx="1.5" fill="#fff" opacity=".35"/>
+<rect x="42" y="26" width="16" height="52" fill="url(#p8s)"/>
+<g stroke="#5A3A1A" stroke-opacity=".38" stroke-width="1.3">
+<path d="M42 31h16M42 35h16M42 39h16M42 43h16M42 47h16M42 51h16M42 55h16M42 59h16M42 63h16M42 67h16M42 71h16"/>
+</g>
+<rect x="44" y="26" width="3" height="52" fill="#fff" opacity=".22"/>
+<rect x="30" y="18" width="40" height="10" rx="5" fill="url(#p8p)"/>
+<rect x="34" y="20" width="32" height="2.5" rx="1.25" fill="#fff" opacity=".35"/>
+<path d="M63 28v20" stroke="#6b6154" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="63" cy="54" r="7" fill="url(#p8k)"/>
+<path d="M58.5 51c2-2 5-3 8-2" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="1.4" stroke-linecap="round"/>
+
+                            </svg>
+                            <span class="badge">Best seller</span>
+                        </div>
+                        <span class="tag">Cat furniture</span>
+                        <h3><button type="button" class="prod-open" data-id="scratcher" aria-haspopup="dialog">Sisal Scratching Post</button></h3>
+                        <p class="desc">A sisal-wrapped post on a wide base, for stretching and scratching.</p>
+                        <p class="price">₱899 <span>/ each</span></p>
+                        <button type="button" class="add" data-id="scratcher" aria-label="Add Sisal Scratching Post to cart">Add to cart</button>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="block" aria-labelledby="why-heading">
+            <div class="wrap">
+
+                <div class="head-row">
+                    <div class="section-head">
+                        <h2 id="why-heading">Why pet owners choose us</h2>
+                    </div>
+                    <a class="more-link" href="why-us.html">More about us</a>
+                </div>
+
+                <div class="why-grid">
+                    <div class="why-card">
+                        <svg viewBox="0 0 40 40" aria-hidden="true"><path fill="#25505B" d="M20 4l4 8 9 1-6.5 6.5L28 28l-8-4-8 4 1.5-8.5L7 13l9-1z"/></svg>
+                        <h3>Quality first</h3>
+                        <p>Every item is chosen to be a reliable, well-made part of your pet's daily routine, not a one-time impulse buy.</p>
+                    </div>
+                    <div class="why-card">
+                        <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="16" fill="none" stroke="#25505B" stroke-width="4"/><path d="M20 12v8l6 4" stroke="#25505B" stroke-width="4" fill="none" stroke-linecap="round"/></svg>
+                        <h3>Suited to every life stage</h3>
+                        <p>From energetic puppies and kittens to elderly pets needing extra care, our range covers size, age, and specific needs.</p>
+                    </div>
+                    <div class="why-card">
+                        <svg viewBox="0 0 40 40" aria-hidden="true"><path fill="#25505B" d="M6 18h28v4H6z"/><path fill="#25505B" d="M18 6h4v28h-4z"/></svg>
+                        <h3>One convenient source</h3>
+                        <p>We bring health, comfort, and happiness essentials together, so responsible pet care never means multiple stops.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="block" aria-label="Quote">
+            <div class="wrap">
+                <figure class="testimonial" style="margin: 0 auto">
+                    <blockquote>"Until one has loved an animal, a part of one's soul remains unawakened."</blockquote>
+                    <figcaption>Anatole France</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="block" aria-label="Newsletter and store visit">
+            <div class="wrap">
+                <div class="cta-grid">
+
+                    <div class="cta-card cta-clay">
+                        <h2>Care tips and new arrivals, once a month</h2>
+                        <p>Pick who you're shopping for and we'll send only what fits.</p>
+                        <a class="btn btn-dark" href="signup.html">Join the newsletter</a>
+                    </div>
+
+                    <div class="cta-card cta-sand">
+                        <h2>Come say hello</h2>
+                        <p>789 Holy Angel Street, Angeles City, Pampanga</p>
+                        <a class="btn btn-ghost" href="contact.html">Contact and directions</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="wrap">
+
+            <div class="foot-grid">
+
+                <div>
+                    <div class="foot-logo">
+                        <img src="favicon.png" alt="">
+                        Whiskers &amp; Wags
+                    </div>
+                    <p>Quality essentials for dogs and cats of every age, because responsible pet ownership should be simple.</p>
+                </div>
+
+                <div>
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="dogs.html">Dog Essentials</a></li>
+                        <li><a href="cats.html">Cat Essentials</a></li>
+                        <li><a href="best-sellers.html">Best Sellers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="why-us.html">Why Us</a></li>
+                        <li><a href="contact.html#about">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="signup.html">Newsletter</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Visit us</h3>
+                    <ul>
+                        <li><span>789 Holy Angel Street,<br>Angeles City, Pampanga</span></li>
+                        <li><a href="tel:+639170000000">+63 917 000 0000</a></li>
+                        <li><a href="mailto:hello@whiskersandwags.example">hello@whiskersandwags.example</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="foot-bottom">
+                <span>&copy; 2026 Whiskers &amp; Wags Pet Essentials. All rights reserved.</span>
+                <span>Galang - Siron - Tiodin.</span>
+            </div>
+
+        </div>
+    </footer>
+    <!-- PRODUCT DETAILS -->
+    <dialog class="modal" id="prodDialog" aria-labelledby="pd-title">
+        <div class="modal-body">
+            <button type="button" class="modal-close" id="pdClose" aria-label="Close product details">&times;</button>
+
+            <div class="pd-media" id="pdMedia"></div>
+
+            <div class="pd-info">
+                <span class="tag" id="pdTag"></span>
+                <h2 id="pd-title"></h2>
+                <p class="pd-for" id="pdFor"></p>
+                <p class="pd-desc" id="pdDesc"></p>
+                <ul class="pd-points" id="pdPoints"></ul>
+
+                <p class="price pd-price" id="pdPrice"></p>
+
+                <div class="pd-buy">
+                    <div class="qty" role="group" aria-label="Quantity">
+                        <button type="button" id="pdMinus" aria-label="Decrease quantity">&minus;</button>
+                        <output id="pdQty" aria-live="polite">1</output>
+                        <button type="button" id="pdPlus" aria-label="Increase quantity">+</button>
+                    </div>
+                    <button type="button" class="btn btn-primary pd-add" id="pdAdd">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <!-- CART -->
+    <dialog class="drawer" id="cartDialog" aria-labelledby="cart-title">
+        <div class="drawer-head">
+            <h2 id="cart-title">Your cart</h2>
+            <button type="button" class="modal-close" id="cartClose" aria-label="Close cart">&times;</button>
+        </div>
+
+        <div class="drawer-list" id="cartList"></div>
+
+        <div class="drawer-foot" id="cartFoot">
+            <p class="cart-total"><span>Total</span> <strong id="cartTotal">₱0</strong></p>
+            <button type="button" class="btn btn-primary" id="checkoutBtn">Checkout</button>
+            <p class="cart-note" id="cartNote" role="status"></p>
+        </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
